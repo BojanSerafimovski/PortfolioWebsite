@@ -10,7 +10,7 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Portfolio Website</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 <body>
@@ -46,14 +46,14 @@
                     <h3>Studied on University American College in Skopje, North Macedonia</h3>
                 </div>
                 <div class="images">
-                    <img src="img/websign.png" id="websign" alt="web sign" />
-                    <img src="img/HTML.png" id="html" alt="html sign" />
-                    <img src="img/css.png" id="css" alt="css sign" />
-                    <img src="img/javascript.png" id="javascript" alt="javascript sign" />
-                    <img src="img/Csharp.png" id="csharp" alt="csharp sign" />
-                    <img src="img/aspnet.png" id="aspnet" alt="aspnet sign" />
-                    <img src="img/mssql.png" id="mssql" alt="mssql sign" />
-                    <img src="img/brackets.png" id="brackets" alt="brackets sign" />
+                    <img src="../img/websign.png" id="websign" alt="web sign" />
+                    <img src="../img/HTML.png" id="html" alt="html sign" />
+                    <img src="../img/css.png" id="css" alt="css sign" />
+                    <img src="../img/javascript.png" id="javascript" alt="javascript sign" />
+                    <img src="../img/Csharp.png" id="csharp" alt="csharp sign" />
+                    <img src="../img/aspnet.png" id="aspnet" alt="aspnet sign" />
+                    <img src="../img/mssql.png" id="mssql" alt="mssql sign" />
+                    <img src="../img/brackets.png" id="brackets" alt="brackets sign" />
                 </div>
                 <a href="#about" class="btn">Read more about me</a>
                 <div class="media-icons">
@@ -90,11 +90,11 @@
                     <div class="img-card">
                         <div id="slider">
                             <figure>
-                                <img src="img_slider/Bojan_Serafimovski_4010.jpg" width="400" height="700" alt="graduation photography" />
-                                <img src="img_slider/Portrait_Bojan_CV.jpg" width="400" height="700" alt="berovo" />
-                                <img src="img_slider/slika_galicnik.jpg" width="400" height="700" alt="bigorski" />
-                                <img src="img_slider/slika_stonehenge.jpg" width="400" height="700" alt="graduation thesis" />
-                                <img src="img_slider/Bojan_Serafimovski_4010.jpg" width="400" height="700" alt="graduation thesis" />
+                                <img src="../img_slider/Bojan_Serafimovski_4010.jpg" width="400" height="700" alt="graduation photography" />
+                                <img src="../img_slider/Portrait_Bojan_CV.jpg" width="400" height="700" alt="berovo" />
+                                <img src="../img_slider/slika_galicnik.jpg" width="400" height="700" alt="bigorski" />
+                                <img src="../img_slider/slika_stonehenge.jpg" width="400" height="700" alt="graduation thesis" />
+                                <img src="../img_slider/Bojan_Serafimovski_4010.jpg" width="400" height="700" alt="graduation thesis" />
                             </figure>
                         </div>
                         <img src="img_slider/Bojan_Serafimovski_4010.jpg" height="500" width="450" alt="graduation thesis" class="hide_img" />
@@ -148,7 +148,7 @@
                         <li>Learn HTML5 and CSS3 from scratch by John Smilga, 2021</li>
                         <li>Microsoft Office Specialist by Microsoft, 2017</li>
                     </ul>
-                    <a href="certificates/BojanSerafimovski_Certificates.pdf" class="btn1" download="Bojan Serafimovski Certificates.pdf">Download Certificates <i class="fas fa-download"></i></a>
+                    <a href="../certificates/BojanSerafimovski_Certificates.pdf" class="btn1" download="Bojan Serafimovski Certificates.pdf">Download Certificates <i class="fas fa-download"></i></a>
                 </div>
                 <div class="column col-right">
                     <h2>Front-End & Back-End</h2>
@@ -310,7 +310,7 @@
                         <div class="modal-container" id="modal_container">
                             <div class="popup_left">
                                 <div class="popup-img_container">
-                                    <img src="img/database_system.jpg" alt="Database System" class="popup_img" />
+                                    <img src="../img/database_system.jpg" alt="Database System" class="popup_img" />
                                 </div>
                             </div>
                             <div class="popup_right">
@@ -326,7 +326,7 @@
                             <button id="close" type="button">
                                 <div class="popup_close">
                                     <svg>
-                                        <use xlink:href="img/sprite.svg#icon-cross"></use>
+                                        <use xlink:href="../img/sprite.svg#icon-cross"></use>
                                     </svg>
                                 </div>
                             </button>
@@ -339,7 +339,7 @@
         <!--arrow for navigation-->
         <a href="#header" class="goto-top scroll-link">
             <svg>
-                <use xlink:href="img/sprite.svg#icon-arrow-up"></use>
+                <use xlink:href="../img/sprite.svg#icon-arrow-up"></use>
             </svg>
         </a>
         <!--Footer-->
@@ -353,12 +353,12 @@
             </p>
         </footer>
         <!--scripts-->
-        <script src="js/burger_menu.js"></script>
-        <script src="js/canvas_background.js"></script>
-        <script src="js/scroll_animation.js"></script>
-        <script src="js/fixed_nav.js"></script>
-        <script src="js/popup.js"></script>
-        <script src="js/validation.js"></script>
+        <script src="../js/burger_menu.js"></script>
+        <script src="../js/canvas_background.js"></script>
+        <script src="../js/scroll_animation.js"></script>
+        <script src="../js/fixed_nav.js"></script>
+        <script src="../js/popup.js"></script>
+        <script src="../js/validation.js"></script>
     </form>
 </body>
 </html>

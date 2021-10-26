@@ -93,15 +93,15 @@
     <Content Include="js\popup.js" />
     <Content Include="js\scroll_animation.js" />
     <Content Include="js\validation.js" />
-    <Content Include="Portfolio.aspx" />
+    <Content Include="asp\Portfolio.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Portfolio.aspx.cs">
+    <Compile Include="asp\Portfolio.aspx.cs">
       <DependentUpon>Portfolio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Portfolio.aspx.designer.cs">
+    <Compile Include="asp\Portfolio.aspx.designer.cs">
       <DependentUpon>Portfolio.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
