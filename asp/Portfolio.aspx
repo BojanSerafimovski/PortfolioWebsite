@@ -62,7 +62,7 @@
                     <a href="https://www.linkedin.com/in/bojan-serafimovski" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
-            <img src="img/skills_image.png" class="image_skills" />
+            <img src="../img/skills_image.png" class="image_skills" />
         </section>
         <!--About Section-->
         <canvas id="canvas1"></canvas>
@@ -97,7 +97,7 @@
                                 <img src="../img_slider/Bojan_Serafimovski_4010.jpg" width="400" height="700" alt="graduation thesis" />
                             </figure>
                         </div>
-                        <img src="img_slider/Bojan_Serafimovski_4010.jpg" height="500" width="450" alt="graduation thesis" class="hide_img" />
+                        <img src="../img_slider/Bojan_Serafimovski_4010.jpg" height="500" width="450" alt="graduation thesis" class="hide_img" />
                     </div>
                 </div>
                 <div class="column col-right">
