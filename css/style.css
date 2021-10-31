@@ -1045,14 +1045,19 @@ section {
     cursor: pointer;
 }
 
-    .popup_close:hover {
-        background-color: #3e689d;
-    }
+#close {
+    background-color: transparent;
+    border: none;
+}
 
-    .popup_close svg {
-        width: 2rem;
-        height: 2rem;
-    }
+.popup_close:hover {
+    background-color: #3e689d;
+}
+
+.popup_close svg {
+    width: 2rem;
+    height: 2rem;
+}
 
 .popup {
     position: fixed;
@@ -2070,6 +2075,12 @@ section {
         font-size: 0.9rem;
     }
 }
+
+@media (max-width: 375px) {
+    .right_content h1 {
+        font-size: 1.3rem;
+    }
+}
 /*contact media queries*/
 @media (max-width: 1300px) {
     .container {
@@ -2290,6 +2301,23 @@ section {
 @media (max-width: 395px) {
     .contact_section .content_contact p {
         font-size: 0.9em;
+    }
+}
+
+@media (max-width: 380px) {
+    .contactForm .inputBox span {
+        font-size: 16px;
+    }
+
+    .contactForm .inputBox input:focus ~ span,
+    .contactForm .inputBox input:valid ~ span,
+    .contactForm .inputBox textarea:focus ~ span,
+    .contactForm .inputBox textarea:valid ~ span {
+        font-size: 16px;
+    }
+
+    .modal-container {
+        transform: translate(-50%, -55%);
     }
 }
 /*end of code*/
