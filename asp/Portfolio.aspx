@@ -18,7 +18,7 @@
         <header id="header">
             <nav>
                 <div class="logo">
-                    <a href="#" class="brand">Portfolio</a>
+                    <a href="#main" class="brand">Portfolio</a>
                 </div>
                 <div class="blur_background">
                     <ul class="nav-links">
@@ -87,41 +87,85 @@
             </div>
             <div class="content">
                 <div class="column col-left">
-                    <div class="img-card">
-                        <div id="slider">
-                            <figure>
-                                <img src="../img_slider/Bojan_Serafimovski_4010.jpg" width="400" height="700" alt="graduation photography" />
-                                <img src="../img_slider/Portrait_Bojan_CV.jpg" width="400" height="700" alt="berovo" />
-                                <img src="../img_slider/slika_galicnik.jpg" width="400" height="700" alt="bigorski" />
-                                <img src="../img_slider/slika_stonehenge.jpg" width="400" height="700" alt="graduation thesis" />
-                                <img src="../img_slider/Bojan_Serafimovski_4010.jpg" width="400" height="700" alt="graduation thesis" />
-                            </figure>
-                        </div>
-                        <img src="../img_slider/Bojan_Serafimovski_4010.jpg" height="500" width="450" alt="graduation thesis" class="hide_img" />
-                    </div>
-                </div>
-                <div class="column col-right">
+                    <h2 class="summary">Summary</h2>
                     <h2 class="content-title">Hello to everyone, my name is <span>Bojan Serafimovski!</span></h2>
                     <p class="paragraph">
-                        I am 22 years old and I have a bachelor's degree in software engineering from the faculty of Computer Science and Information Technology at the American College University in Skopje, North Macedonia. I also finished my high school education here in Skopje, at the Josip Broz Tito High School in 2017.<br />
+                        My main motive is to create dynamic and interactive web applications & web sites adapted for all kind of technological devices.
                         <br />
-                        Over the years I have gained many certifications in the IT industry, and a list of them can be found below on my website. The enthusiasm for computers and the IT industry has been with me since I was a kid and the fact that I enrolled in my first computer course at the age of 10 confirms that fact. Although there is a separate section on my programming skills below, I would like to mention them now.
-                        <br />
-                        <br />
-                        For designing the user interface as well as for animations and some informational modals or popups I usually use HTML, CSS and Vanilla JavaScript. On the other hand, to add certain functionalities and to perform certain tasks in my applications or websites I use C# while the most comfortable working environment for me is the .NET framework, using the ASP.NET syntax.
-                        <br />
-                        <br />
-                        For storing my data I use the MSSQL database management system, while for mapping and relations between applications and databases I use the object-relational mapper whose name is Dapper. <span class="list_1">(my complete list of skills and certificates can be find in the next section)</span>
-                        <br />
-                        <span class="list">My complete list of skills and certificates can be find in the next section.</span>
-                        <br />
-                        <br />
-                        <span class="gallery">Get to know me better, here's how I look!</span>
+                        I am most comfortable with the Microsoft tools such as .NET working environment, as well as C# programming language for the back-end, MsSQL Server for storing the data and HTML,
+                        CSS and Vanilla JavaScript for the front-end.
+                    </p>
+                    <ul class="basic_info resume">
+                        <li><span class="description">Title: </span>Full Stack Web Developer</li>
+                        <span class="moreResume">
+                        <li><span class="description">Age: </span>23</li>
+                        <li><span class="description">Gender: </span>Male</li>
+                        <li><span class="description">Residence: </span>Skopje, North Macedonia</li>
+                        <li><span class="description">Languages: </span>Macedonian, English, Czech, French</li>
+                        <li><span class="description">University: </span>American College Skopje</li>
+                        <li><span class="description">Degree: </span>BSc in Computer Science and Software Engineering</li>
+                        <li><span class="description">E-mail: </span>bojanserafimovski98@gmail.com</li>
+                        </span>
+                    </ul>
+                    <button class="see_resume" type="button">See my full resume</button>
+                    <br />
+                    <p class="paragraph">
                         <span class="about_link">My complete list of skills and certificates can be find in the next section.</span>
                     </p>
-                    <a href="#skills" class="btn1">Learn more about my skills</a>
+                    <a href="#skills" class="btn1 btn_about first_btn">Learn more about my skills</a>
+                </div>
+                <div class="column col-right">
+                    <h2 class="projects">Personal Projects</h2>
+                    <h2 class="content-title"><span>Recent projects</span> I have worked on:</h2>
+                    <ul class="basic_info">
+                        <li><span>Login Form</span> for a website with features for registration, login verification and retrieving the forgotten password.</li>
+                        <li class="demo btn-open" data-modal="modal1">View demo</li>
+                        <li><span>Crud Admin Panel</span> intended for review of employees and their job details in a company, based on the MVC pattern.</li>
+                        <li class="demo btn-open" data-modal="modal2">View demo</li>
+                        <li><span>Online Shop & Service</span> that serves for online sales of technological devices and scheduling a term to bring their device to be serviced.</li>
+                        <li class="demo btn-open" data-modal="modal3">View demo</li>
+                        <li><span>Weather API</span> that gives the users opportunity to check the weather conditions in a particular city, country or continent.</li>
+                        <li class="demo btn-open" data-modal="modal4">View demo</li>
+                    </ul>
+                    <br />
+                    <br />
+                    <p class="paragraph">
+                        <span class="git_hub_info">Visit my GitHub profile to see all my personal projects and work.</span>
+                    </p>
+                    <a href="https://github.com/BojanSerafimovski" target="_blank" class="btn1 btn_about">Check out my GitHub profile</a>
                 </div>
             </div>
+
+            <!-- Demo Modals -->
+
+            <div class="modal" id="modal1">
+                <div class="video-container">
+                    <span class="close">Close Demo</span>
+                    <video src="../demo_videos/login_demo.mp4" controls></video>
+                </div>
+            </div>
+
+            <div class="modal" id="modal2">
+                <div class="video-container">
+                    <span class="close">Close Demo</span>
+                    <video src="../demo_videos/MVC_AdminPanel_demo.mp4" controls></video>
+                </div>
+            </div>
+
+            <div class="modal" id="modal3">
+                <div class="video-container">
+                    <span class="close">Close Demo</span>
+                    <video src="../demo_videos/shop&service_demo.mp4" controls></video>
+                </div>
+            </div>
+
+            <div class="modal" id="modal4">
+                <div class="video-container">
+                    <span class="close">Close Demo</span>
+                    <video src="../demo_videos/weather_api_demo.mp4" controls></video>
+                </div>
+            </div>
+            <!-- Demo modals end here -->
         </section>
         <!--Skills Section-->
         <section class="skills" id="skills">
@@ -132,7 +176,9 @@
                 <div class="column col-left">
                     <h2 class="content-title">My Skills & Certificates</h2>
                     <p class="paragraph">
-                        My main interest in programming as a profession is to create dynamic and interactive web applications and web sites that are maximally adapted for any type of technological device. In this section, you can find the programming tools that I use to make this type of applications and how skillful I am with them as well.
+                        <span class="hide_paragraph">
+                        My main interest in programming as a profession is to create dynamic and interactive web applications and web sites that are maximally adapted for any type of technological device and in this section you can find the programming tools that I use to make this type of applications.
+                            </span>
                         <br />
                         <br />
                         Thanks to my enthusiasm for computers over these past years, in addition to my Bachelor's Degree of Computer Science and Software Engineering, I have gained numerous certifications and most of them from the Microsoft curriculum.
@@ -156,74 +202,64 @@
                     <div class="bar">
                         <div class="info">
                             <span>HTML & CSS</span>
-                            <span>90%</span>
+                            <span><i class="fas fa-paint-brush"></i></span>
                         </div>
-                        <div class="line html"></div>
                     </div>
                     <div class="bar">
                         <div class="info">
                             <span>JavaScript</span>
-                            <span>70%</span>
+                            <span><i class="fas fa-scroll"></i></span>
                         </div>
-                        <div class="line javascript"></div>
                     </div>
                     <div class="bar">
                         <div class="info">
                             <span>C#</span>
-                            <span>60%</span>
+                            <span><i class="fas fa-cogs"></i></span>
                         </div>
-                        <div class="line csharp"></div>
                     </div>
                     <div class="bar">
                         <div class="info">
                             <span>.NET Framework</span>
-                            <span>70%</span>
+                            <span><i class="fas fa-tools"></i></span>
                         </div>
-                        <div class="line dotnet"></div>
                     </div>
                     <div class="bar">
                         <div class="info">
                             <span>.NET Core</span>
-                            <span>50%</span>
+                            <span><i class="fas fa-tools"></i></span>
                         </div>
-                        <div class="line core"></div>
                     </div>
                     <div class="bar">
                         <div class="info">
                             <span>MSSQL</span>
-                            <span>60%</span>
+                            <span><i class="fas fa-database"></i></span>
                         </div>
-                        <div class="line mssql"></div>
                     </div>
                     <!--Other Skills-->
                     <h2 class="other_skills">Other Skills</h2>
                     <div class="bar">
                         <div class="info">
                             <span>Git</span>
-                            <span>80%</span>
+                            <span><i class="fas fa-code-branch"></i></span>
                         </div>
-                        <div class="line git"></div>
                     </div>
                     <div class="bar">
                         <div class="info">
-                            <span>Adobe PhotoShop & Illustrator</span>
-                            <span>80%</span>
+                            <span>PhotoShop & Illustrator</span>
+                            <span><i class="fas fa-edit"></i></span>
                         </div>
-                        <div class="line photoshop"></div>
                     </div>
                     <div class="bar">
                         <div class="info">
                             <span>Vegas Pro (Video Editing)</span>
-                            <span>70%</span>
+                            <span><i class="fas fa-photo-video"></i></span>
                         </div>
-                        <div class="line vegas"></div>
                     </div>
                     <div class="bar">
                         <div class="info">
                             <span>Microsoft Office Package</span>
-                            <span>90%</span>
+                            <span><i class="far fa-file"></i></span>
                         </div>
-                        <div class="line office"></div>
                     </div>
                 </div>
             </div>
@@ -359,6 +395,8 @@
         <script src="../js/fixed_nav.js"></script>
         <script src="../js/popup.js"></script>
         <script src="../js/validation.js"></script>
+        <script src="../js/demomodals.js"></script>
+        <script src="../js/resume.js"></script>
     </form>
 </body>
 </html>

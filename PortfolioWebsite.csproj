@@ -68,29 +68,31 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\style.css" />
+    <Content Include="demo_videos\login_demo.mp4" />
+    <Content Include="demo_videos\MVC_AdminPanel_demo.mp4" />
+    <Content Include="demo_videos\shop&amp;service_demo.mp4" />
+    <Content Include="demo_videos\weather_api_demo.mp4" />
     <Content Include="img\.gitignore" />
     <Content Include="img\aspnet.png" />
     <Content Include="img\background.jpg" />
     <Content Include="img\background_effect1.jpg" />
-    <Content Include="img_slider\Bojan_Serafimovski_4010.jpg" />
     <Content Include="img\brackets.png" />
     <Content Include="img\Csharp.png" />
     <Content Include="img\css.png" />
     <Content Include="img\database_system.jpg" />
     <Content Include="img\HTML.png" />
-    <Content Include="img_slider\slika_galicnik.jpg" />
-    <Content Include="img_slider\slika_stonehenge.jpg" />
     <Content Include="img\javascript.png" />
     <Content Include="img\mssql.png" />
-    <Content Include="img_slider\Portrait_Bojan_CV.jpg" />
     <Content Include="img\skills_image.png" />
     <Content Include="img\sprite.svg" />
     <Content Include="img\websign.png" />
     <Content Include="js\canvas_background.js" />
+    <Content Include="js\demomodals.js" />
     <Content Include="js\fixed_nav.js" />
     <Content Include="js\burger_menu.js" />
     <Content Include="js\plugins.js" />
     <Content Include="js\popup.js" />
+    <Content Include="js\resume.js" />
     <Content Include="js\scroll_animation.js" />
     <Content Include="js\validation.js" />
     <Content Include="asp\Portfolio.aspx" />
